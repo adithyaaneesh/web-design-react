@@ -1,0 +1,22 @@
+nav {
+    position: fixed;
+    min-height: 50px;
+    background-color:var(--primary--color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-item ul {
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.menu-item ul li {
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    color: var(--primary--text-color)
+    
+}

@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+:root {
+  --primary--color:#FFEECA;
+  --primary--text-color:#3D2E0E;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
